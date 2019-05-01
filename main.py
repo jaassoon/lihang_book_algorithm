@@ -68,5 +68,5 @@ if __name__=="__main__":
     plt.imshow(imgs[index] , cmap='gray')
     # plt.show()
 
-    perceptron = Perceptron()
+    perceptron = binary_perceptron.Perceptron()
     perceptron.hog_test(imgs[index])
