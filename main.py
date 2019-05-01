@@ -2,7 +2,7 @@ import numpy as np
 import struct
 import matplotlib.pyplot as plt
 
-from perceptron import *
+from perceptron import binary_perceptron
 
 def loadImageSet(which=0):
     print "load image set"
